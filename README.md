@@ -1,1 +1,3 @@
-# Photography-portfolio-v0.4
+# Project Repository
+
+This is the initial README file for the project.
