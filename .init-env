@@ -1,0 +1,10 @@
+Environment initialized with:
+Node.js: v18.19.1
+npm: v9.2.0
+Git: v2.43.0
+Docker: Installed via apt
+Webpack: v5.94.0
+Jest: Installed globally
+Cypress: Installed globally
+
+All core dependencies for the Portfolio Management project have been installed and verified.

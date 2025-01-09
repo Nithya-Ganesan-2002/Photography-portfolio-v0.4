@@ -1,0 +1,240 @@
+/* Photography Portfolio Styles */
+
+:root {
+  --primary-color: #fc4308;
+  --primary-color-80: rgba(252, 67, 8, 0.8);
+  --primary-color-30: rgba(252, 67, 8, 0.3);
+  --dark-gradient-start: #324D2A;
+  --dark-gradient-end: #101817;
+  --text-color: #fc4308;
+  --border-color: #8E2908;
+}
+
+/* Typography */
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--text-color);
+  background: linear-gradient(to bottom, var(--dark-gradient-start), var(--dark-gradient-end));
+}
+
+/* Navigation */
+.navbar {
+  padding: 8px 60px;
+  border-bottom: 0.5px solid var(--primary-color-30);
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.navbar-logo__text {
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: -0.12px;
+  color: var(--primary-color);
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 10px;
+  font-size: 8px;
+}
+
+.button {
+  padding: 4px 8px 5px;
+  border: 0.5px solid var(--primary-color);
+  border-radius: 1.5px;
+  font-size: 8px;
+  color: var(--primary-color);
+}
+
+/* Hero Section */
+.hero {
+  padding: 40px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.hero-title {
+  font-size: 55px;
+  font-weight: 500;
+  letter-spacing: -3.575px;
+  line-height: 57.75px;
+}
+
+.hero-description {
+  font-size: 8px;
+  line-height: 12px;
+  max-width: 250px;
+}
+
+.round-button {
+  width: 33.9px;
+  height: 33.9px;
+  border: 0.37px solid var(--primary-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(252, 67, 8, 0.1);
+}
+
+/* Work Section */
+.work-section {
+  padding: 40px 60px;
+}
+
+.work-title {
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: -1.95px;
+  margin-bottom: 29.5px;
+}
+
+.image-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.image-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.image {
+  width: 180px;
+  height: 250px;
+  border: 1px solid var(--border-color);
+  border-radius: 1.5px;
+  object-fit: cover;
+}
+
+.image-text {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.image-year {
+  font-size: 7px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  opacity: 0.8;
+}
+
+.image-author {
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: -0.585px;
+}
+
+/* Victorian Collection Section */
+.victorian-section {
+  padding: 40px 60px;
+  text-align: center;
+}
+
+.victorian-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.victorian-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.victorian-image {
+  border: 1px solid var(--border-color);
+  border-radius: 1.5px;
+}
+
+/* Call to Action Section */
+.cta-section {
+  padding: 56px 60px;
+  text-align: center;
+}
+
+.cta-title {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: -3.25px;
+  line-height: 52.5px;
+  margin-bottom: 12px;
+}
+
+.cta-description {
+  font-size: 8px;
+  line-height: 9.75px;
+  max-width: 337px;
+  margin: 0 auto;
+}
+
+/* Footer */
+.footer {
+  padding: 20px 32px;
+  background-color: #0E1512;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 16px;
+  font-size: 8px;
+}
+
+.social-links {
+  display: flex;
+  gap: 6px;
+}
+
+.social-icon {
+  width: 12px;
+  height: 12px;
+  color: var(--primary-color);
+}
+
+.footer-divider {
+  height: 0.5px;
+  background-color: var(--border-color);
+  margin: 16px 0;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 8px;
+}
+
+.footer-legal {
+  display: flex;
+  gap: 12px;
+}
